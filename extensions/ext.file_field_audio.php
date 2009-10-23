@@ -165,7 +165,7 @@ class File_field_audio
 	{
 	    global $DB;
 	    
-	    $DB->query("DELETE FROM exp_extensions WHERE class = 'Itee_bitee_audio'");
+	    $DB->query("DELETE FROM exp_extensions WHERE class = 'File_field_audio'");
 	}
 	// END
 
